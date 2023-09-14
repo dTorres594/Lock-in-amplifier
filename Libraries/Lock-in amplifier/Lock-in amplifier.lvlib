@@ -25,6 +25,8 @@
 				<Item Name="Connect (Reply Payload)--cluster.ctl" Type="VI" URL="../Connect (Reply Payload)--cluster.ctl"/>
 				<Item Name="Read datapoint Argument--cluster.ctl" Type="VI" URL="../Read datapoint Argument--cluster.ctl"/>
 				<Item Name="Read datapoint (Reply Payload)--cluster.ctl" Type="VI" URL="../Read datapoint (Reply Payload)--cluster.ctl"/>
+				<Item Name="Average samples Argument--cluster.ctl" Type="VI" URL="../Average samples Argument--cluster.ctl"/>
+				<Item Name="Average samples (Reply Payload)--cluster.ctl" Type="VI" URL="../Average samples (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -42,6 +44,7 @@
 			<Item Name="Remove Panel from Subpanel.vi" Type="VI" URL="../Remove Panel from Subpanel.vi"/>
 			<Item Name="Connect.vi" Type="VI" URL="../Connect.vi"/>
 			<Item Name="Read datapoint.vi" Type="VI" URL="../Read datapoint.vi"/>
+			<Item Name="Average samples.vi" Type="VI" URL="../Average samples.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
