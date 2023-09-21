@@ -123,6 +123,9 @@
 	<Item Name="Local Events" Type="Folder">
 		<Item Name="Local Events.lvlib" Type="Library" URL="../Local Events/Local Events.lvlib"/>
 	</Item>
+	<Item Name="Support" Type="Folder">
+		<Item Name="Connect -- subVI.vi" Type="VI" URL="../Support/Connect -- subVI.vi"/>
+	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
