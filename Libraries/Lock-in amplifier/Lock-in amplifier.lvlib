@@ -137,6 +137,9 @@
 		<Item Name="Connect -- subVI.vi" Type="VI" URL="../Support/Connect -- subVI.vi"/>
 		<Item Name="Configure -- subVI.vi" Type="VI" URL="../Support/Configure -- subVI.vi"/>
 		<Item Name="Continuous acq data -- cluster.ctl" Type="VI" URL="../Support/Continuous acq data -- cluster.ctl"/>
+		<Item Name="Filter config -- cluster.ctl" Type="VI" URL="../Support/Filter config -- cluster.ctl"/>
+		<Item Name="Input signal config -- typedef.ctl" Type="VI" URL="../Support/Input signal config -- typedef.ctl"/>
+		<Item Name="Sense-Reserve config -- cluster.ctl" Type="VI" URL="../Support/Sense-Reserve config -- cluster.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
