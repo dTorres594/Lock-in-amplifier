@@ -29,12 +29,15 @@
 				<Item Name="Average samples (Reply Payload)--cluster.ctl" Type="VI" URL="../Average samples (Reply Payload)--cluster.ctl"/>
 				<Item Name="Disconnect Argument--cluster.ctl" Type="VI" URL="../Disconnect Argument--cluster.ctl"/>
 				<Item Name="Configure Argument--cluster.ctl" Type="VI" URL="../Configure Argument--cluster.ctl"/>
+				<Item Name="Start continuous acquisition Argument--cluster.ctl" Type="VI" URL="../Start continuous acquisition Argument--cluster.ctl"/>
+				<Item Name="Stop continuous acquisition Argument--cluster.ctl" Type="VI" URL="../Stop continuous acquisition Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="Helper Loop Status Updated Argument--cluster.ctl" Type="VI" URL="../Helper Loop Status Updated Argument--cluster.ctl"/>
+				<Item Name="Data available Argument--cluster.ctl" Type="VI" URL="../Data available Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -49,6 +52,8 @@
 			<Item Name="Average samples.vi" Type="VI" URL="../Average samples.vi"/>
 			<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
 			<Item Name="Configure.vi" Type="VI" URL="../Configure.vi"/>
+			<Item Name="Start continuous acquisition.vi" Type="VI" URL="../Start continuous acquisition.vi"/>
+			<Item Name="Stop continuous acquisition.vi" Type="VI" URL="../Stop continuous acquisition.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -67,6 +72,7 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="Helper Loop Status Updated.vi" Type="VI" URL="../Helper Loop Status Updated.vi"/>
+		<Item Name="Data available.vi" Type="VI" URL="../Data available.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -130,6 +136,7 @@
 	<Item Name="Support" Type="Folder">
 		<Item Name="Connect -- subVI.vi" Type="VI" URL="../Support/Connect -- subVI.vi"/>
 		<Item Name="Configure -- subVI.vi" Type="VI" URL="../Support/Configure -- subVI.vi"/>
+		<Item Name="Continuous acq data -- cluster.ctl" Type="VI" URL="../Support/Continuous acq data -- cluster.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
