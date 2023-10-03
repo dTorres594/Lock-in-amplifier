@@ -28,6 +28,7 @@
 				<Item Name="Average samples Argument--cluster.ctl" Type="VI" URL="../Average samples Argument--cluster.ctl"/>
 				<Item Name="Average samples (Reply Payload)--cluster.ctl" Type="VI" URL="../Average samples (Reply Payload)--cluster.ctl"/>
 				<Item Name="Disconnect Argument--cluster.ctl" Type="VI" URL="../Disconnect Argument--cluster.ctl"/>
+				<Item Name="Configure Argument--cluster.ctl" Type="VI" URL="../Configure Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -47,6 +48,7 @@
 			<Item Name="Read datapoint.vi" Type="VI" URL="../Read datapoint.vi"/>
 			<Item Name="Average samples.vi" Type="VI" URL="../Average samples.vi"/>
 			<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
+			<Item Name="Configure.vi" Type="VI" URL="../Configure.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -127,6 +129,7 @@
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Item Name="Connect -- subVI.vi" Type="VI" URL="../Support/Connect -- subVI.vi"/>
+		<Item Name="Configure -- subVI.vi" Type="VI" URL="../Support/Configure -- subVI.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
