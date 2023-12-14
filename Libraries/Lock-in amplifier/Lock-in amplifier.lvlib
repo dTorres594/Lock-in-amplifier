@@ -141,6 +141,9 @@
 		<Item Name="Input signal config -- typedef.ctl" Type="VI" URL="../Support/Input signal config -- typedef.ctl"/>
 		<Item Name="Sense-Reserve config -- cluster.ctl" Type="VI" URL="../Support/Sense-Reserve config -- cluster.ctl"/>
 	</Item>
+	<Item Name="3rd party" Type="Folder">
+		<Item Name="Stanford Research 830.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Stanford Research 830/Stanford Research 830.lvlib"/>
+	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
